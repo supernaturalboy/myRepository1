@@ -7,6 +7,8 @@
 <br/>
 <br/>
 <%
+
+修改4
 String URL="jdbc:mysql://r.rdc.sae.sina.com.cn:3307/app_book4";
   // 使用从库读数据
   // 通过SaeUserInfo提供的静态方法获取应用的access_key和secret_key
