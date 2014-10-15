@@ -35,6 +35,7 @@ public class SearchAuthor extends ActionSupport {
 		   public void setId(String auname) {
 		      this.id = auname;
 		   }
+		   //åœ¨githubç«¯è¿›è¡Œä¿®æ”¹1
 
 	   public String execute() {
 	      String ret = "none";
@@ -43,8 +44,8 @@ public class SearchAuthor extends ActionSupport {
      //     System.out.println(authorname);
 	      try {
 	    	  String URL="jdbc:mysql://r.rdc.sae.sina.com.cn:3307/app_book4";
-		    	// Ê¹ÓÃ´Ó¿â¶ÁÊı¾İ
-		    	  // Í¨¹ıSaeUserInfoÌá¹©µÄ¾²Ì¬·½·¨»ñÈ¡Ó¦ÓÃµÄaccess_keyºÍsecret_key
+		    	// ä½¿ç”¨ä»åº“è¯»æ•°æ®
+		    	  // é€šè¿‡SaeUserInfoæä¾›çš„é™æ€æ–¹æ³•è·å–åº”ç”¨çš„access_keyå’Œsecret_key
 	    	  String Username="omy21z2j04";
 	    	  String Password="yw4y0l15kxh0wzzlxx21z01l5i4wlhhmm3ky3h53";
 		    	  Class.forName("com.mysql.jdbc.Driver").newInstance();
