@@ -14,7 +14,7 @@
     </filter-mapping>
 
     <welcome-file-list>
-        <welcome-file>/index.html</welcome-file>
+        <welcome-file>/error.jsp</welcome-file>
     </welcome-file-list>
 
 </web-app>

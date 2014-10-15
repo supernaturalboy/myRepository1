@@ -26,7 +26,7 @@ public class SearchBook extends ActionSupport {
 	   public void setBookname(String bkname) {
 	      this.bookname = bkname;
 	   }
-
+//just have a try
 	   public String execute() {
 	      String ret = "none";
 	      Connection conn = null;
