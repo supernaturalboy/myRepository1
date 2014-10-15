@@ -12,7 +12,7 @@ String URL="jdbc:mysql://r.rdc.sae.sina.com.cn:3307/app_book4";
   // 通过SaeUserInfo提供的静态方法获取应用的access_key和secret_key
 	    	  String Username="omy21z2j04";
 	    	  String Password="yw4y0l15kxh0wzzlxx21z01l5i4wlhhmm3ky3h53";
- 
+ 修改5
   
      try {
     	 Class.forName("com.mysql.jdbc.Driver").newInstance();

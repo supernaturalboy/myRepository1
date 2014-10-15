@@ -25,6 +25,7 @@ String URL="jdbc:mysql://r.rdc.sae.sina.com.cn:3307/app_book4";
      PreparedStatement ps = conn.prepareStatement(sql);
      String oValue =(String) request.getAttribute("bookname");
      if(oValue!=null){
+	 修改6
      ps.setString(1,oValue);
      ResultSet rs = ps.executeQuery();
      while(rs.next()){

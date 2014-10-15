@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.apache.struts2.ServletActionContext;
 
 import com.opensymphony.xwork2.ActionSupport;
-
+修改8
 //import Action.DBconn;  
 	
 public class SearchAuthor extends ActionSupport {
